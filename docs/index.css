@@ -21,6 +21,16 @@ p {
     color: purple;
 }
 
+.center-colorbar {
+    margin: 0 0 0 15%;
+    width: 70%;
+}
+
+.center-top-nav {
+    margin: auto;
+    width: 380px;
+}
+
 .center-top-const {
     margin: auto;
     width: 760px;
@@ -28,7 +38,12 @@ p {
 
 .center-bottom-const {
     margin: auto;
-    width: 550px;
+    width: 710px;
+}
+
+.center-info-superhighway {
+    display: block;
+    margin: auto;
 }
 
 .center-recycle {
@@ -38,5 +53,5 @@ p {
 
 .center-coffee {
     margin: auto;
-    width: 200px;
+    width: 350px;
 }
