@@ -1,0 +1,42 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    text-align: center;
+    font-family: fantasy;
+}
+
+h3 {
+    text-align: center;
+    font-family: cursive;
+}
+
+p {
+    margin: 40px 10%;
+    font-family: monospace;
+}
+
+.purple-text {
+    color: purple;
+}
+
+.center-top-const {
+    margin: auto;
+    width: 760px;
+}
+
+.center-bottom-const {
+    margin: auto;
+    width: 550px;
+}
+
+.center-recycle {
+    margin: auto;
+    width: 770px;
+}
+
+.center-coffee {
+    margin: auto;
+    width: 200px;
+}
