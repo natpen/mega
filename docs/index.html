@@ -19,8 +19,8 @@
       <img src="undconst1.gif" />
     </div>
     <p>Welcome to my slice of the world World Wide Web! IRL I go by Natalie, but people on the internet usually know me as natpen. I hope you enjoy your stay here. I am a physicist, inventor, and software developer currently based in New York City. I like dogs, cats, cuddly things, bicycles, forests, sailboats, table tennis, and lots of other things too.</p>
-    <img class="center-info-superhighway" src="info-superhighway.gif" />
-    <p> I'm pretty dang passionate about the environment! Did you know that global warming is a thing that's really happening? <a href="http://climate.nasa.gov/evidence/">It is</a>. We should all do our part to try and reduce our carbon footprint!</p>
+    <p>It has been <b id="elevator-day-counter"></b> days since I've been inside an <a href="https://en.wikipedia.org/wiki/Elevator">elevator</a>! If you think you have witnessed a Natalie utilizing the services of an elevator in the wild, please feel encouraged to report this activity so swift corrective action can be taken.</p>
+    <p>I'm pretty dang passionate about the environment! Did you know that global warming is a thing that's really happening? <a href="http://climate.nasa.gov/evidence/">It is</a>. We should all do our part to try and reduce our carbon footprint!</p>
     <div class="center-recycle">
       <img src="reuse.gif" />
       <img src="recycle.gif" />
@@ -41,5 +41,12 @@
       <img src="hamster-mic.gif" />
       <img src="undconst4.gif" />
     </div>
+    <script>
+      var day_start = new Date("Jun 01 2018");
+      var day_current = new Date();
+      var total_days = (day_current - day_start) / (1000 * 60 * 60 * 24);
+      total_days = Math.floor(total_days)
+      document.getElementById("elevator-day-counter").innerHTML = total_days;
+    </script>
   </body>
 </html>
